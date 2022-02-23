@@ -14,7 +14,7 @@ const ProjectCarousel = () => {
         <div className="carousel__container">
             <Carousel className="carousel">
                 <div>
-                    <img src={nodo20} />
+                    <img alt="project_pic" src={nodo20} />
                     <div className="legend">
                         <h2 className="project__info">Template app</h2>
                         <p className="project__info">
@@ -26,14 +26,13 @@ const ProjectCarousel = () => {
                             href="https://nodo-ruta20.netlify.app"
                             target="_blank"
                             rel="noreferrer"
-                            alt="project_pic"
                         >
                             Take a look
                         </a>
                     </div>
                 </div>
                 <div>
-                    <img src={facebookClone} />
+                    <img alt="project_pic" src={facebookClone} />
                     <div className="legend">
                         <h2 className="project__info">Facebook clone</h2>
                         <p className="project__info">
@@ -44,7 +43,6 @@ const ProjectCarousel = () => {
                             href="https://copybook-df803.web.app/"
                             target="_blank"
                             rel="noreferrer"
-                            alt="project_pic"
                         >
                             Take a look
                         </a>
@@ -52,7 +50,7 @@ const ProjectCarousel = () => {
                 </div>
 
                 <div>
-                    <img src={creditcard} />
+                    <img alt="project_pic" src={creditcard} />
                     <div className="legend">
                         <h2 className="project__info">Dynamic credit card</h2>
                         <p className="project__info">
@@ -63,7 +61,6 @@ const ProjectCarousel = () => {
                             href="https://tomyred.github.io/dinamic-card-form/"
                             target="_blank"
                             rel="noreferrer"
-                            alt="project_pic"
                         >
                             Take a look
                         </a>
@@ -71,7 +68,7 @@ const ProjectCarousel = () => {
                 </div>
 
                 <div>
-                    <img src={cryptoPrices} />
+                    <img alt="project_pic" src={cryptoPrices} />
                     <div className="legend">
                         <h2 className="project__info">Crypto-prices</h2>
                         <p className="project__info">
@@ -82,14 +79,13 @@ const ProjectCarousel = () => {
                             href="https://affectionate-bell-7e3879.netlify.app/"
                             target="_blank"
                             rel="noreferrer"
-                            alt="project_pic"
                         >
                             Take a look
                         </a>
                     </div>
                 </div>
                 <div>
-                    <img src={darkmode} />
+                    <img alt="project_pic" src={darkmode} />
                     <div className="legend">
                         <h2 className="project__info">Theme toggler</h2>
                         <p className="project__info">
@@ -100,14 +96,13 @@ const ProjectCarousel = () => {
                             href="https://tomyred.github.io/Dark-mode/"
                             target="_blank"
                             rel="noreferrer"
-                            alt="project_pic"
                         >
                             Take a look
                         </a>
                     </div>
                 </div>
                 <div>
-                    <img src={mediaFinder} />
+                    <img alt="project_pic" src={mediaFinder} />
                     <div className="legend">
                         <h2 className="project__info">Media finder</h2>
                         <p className="project__info">
@@ -118,14 +113,13 @@ const ProjectCarousel = () => {
                             href="https://youthful-yonath-701a94.netlify.app/"
                             target="_blank"
                             rel="noreferrer"
-                            alt="project_pic"
                         >
                             Take a look
                         </a>
                     </div>
                 </div>
                 <div>
-                    <img src={webScraping} />
+                    <img alt="project_pic" src={webScraping} />
                     <div className="legend">
                         <h2 className="project__info">Web-scraping app</h2>
                         <p className="project__info">
@@ -135,7 +129,6 @@ const ProjectCarousel = () => {
                             href="https://zealous-panini-b0ab67.netlify.app/"
                             target="_blank"
                             rel="noreferrer"
-                            alt="project_pic"
                         >
                             Take a look
                         </a>
