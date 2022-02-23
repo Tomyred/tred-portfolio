@@ -1,0 +1,12 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(rgba(107, 4, 4, 0.39), transparent);
+    height: 10%;
+    color: #ffff;
+}
+
+.navbar > span > a {
+    text-decoration: none;
+}

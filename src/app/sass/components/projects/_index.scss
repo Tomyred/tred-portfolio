@@ -1,0 +1,30 @@
+.projects__container {
+    width: 100%;
+    height: 100vh;
+}
+
+.projects__container > p {
+    text-align: center;
+    padding: 20px;
+}
+
+.projects {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel__container {
+    width: 80%;
+    @media screen and (min-width: 1200px) {
+        width: 50%;
+    }
+}
+
+.project__info {
+    display: none;
+    @media screen and (min-width: 600px) {
+        display: block;
+    }
+}
