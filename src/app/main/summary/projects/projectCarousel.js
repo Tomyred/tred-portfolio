@@ -1,18 +1,18 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import facebookClone from "../../assets/images/facebook-clone.png";
-import nodo20 from "../../assets/images/nodo20.png";
-import creditcard from "../../assets/images/creditcard.png";
-import cryptoPrices from "../../assets/images/crypto-prices.png";
-import darkmode from "../../assets/images/darkmode-toggler.png";
-import mediaFinder from "../../assets/images/media-finder.png";
-import webScraping from "../../assets/images/webscraping.png";
+import facebookClone from "../../../assets/images/facebook-clone.png";
+import nodo20 from "../../../assets/images/nodo20.png";
+import creditcard from "../../../assets/images/creditcard.png";
+import cryptoPrices from "../../../assets/images/crypto-prices.png";
+import darkmode from "../../../assets/images/darkmode-toggler.png";
+import mediaFinder from "../../../assets/images/media-finder.png";
+import webScraping from "../../../assets/images/webscraping.png";
 
 const ProjectCarousel = () => {
     return (
-        <div className="carousel__container">
-            <Carousel className="carousel">
+        <div className="carousel">
+            <Carousel autoPlay={true} infiniteLoop={true} interval={3000}>
                 <div>
                     <img alt="project_pic" src={nodo20} />
                     <div className="legend">

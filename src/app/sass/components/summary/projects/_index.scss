@@ -1,24 +1,26 @@
-.projects__container {
+.projects {
     width: 100%;
-    height: 100vh;
+    @media screen and (min-width: 900px) {
+        width: 50%;
+    }
 }
 
-.projects__container > p {
+.projects > p {
     text-align: center;
     padding: 20px;
 }
 
-.projects {
+.carousel__container {
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.carousel__container {
-    width: 80%;
+.carousel {
+    width: 100%;
     @media screen and (min-width: 1200px) {
-        width: 50%;
+        width: 100%;
     }
 }
 

@@ -1,15 +1,17 @@
 // import * as THREE from "three";
 
+import AboutMe from "./main/abourMe";
 import Navbar from "./main/navbar";
 import Presentation from "./main/presentation";
-import Projects from "./main/projects";
+import Summary from "./main/summary";
 
 function App() {
     return (
         <div className="app">
             <Navbar />
             <Presentation />
-            <Projects />
+            <Summary />
+            <AboutMe />
         </div>
     );
 }

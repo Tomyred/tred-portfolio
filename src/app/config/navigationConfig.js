@@ -1,15 +1,11 @@
 const navigationConfig = [
     {
-        title: "Projects",
-        href: "#projects",
+        title: "Summary",
+        href: "#summary",
     },
     {
         title: "About me",
         href: "#aboutme",
-    },
-    {
-        title: "Summary",
-        href: "#summary",
     },
     {
         title: "Contact",

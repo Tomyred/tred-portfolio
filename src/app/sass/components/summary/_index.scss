@@ -1,0 +1,12 @@
+@import "./projects/index";
+@import "./techGrid/index";
+
+.summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    padding: 50px;
+}

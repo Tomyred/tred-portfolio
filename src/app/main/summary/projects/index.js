@@ -3,7 +3,7 @@ import ProjectCarousel from "./projectCarousel";
 
 const Projects = () => {
     return (
-        <div id="projects" className="projects__container">
+        <div id="projects" className="projects">
             <p>
                 Take a look of more projects on JavaScript, Java and Python on
                 my
@@ -16,7 +16,7 @@ const Projects = () => {
                 </a>
             </p>
 
-            <div className="projects">
+            <div className="carousel__container">
                 <ProjectCarousel />
             </div>
         </div>

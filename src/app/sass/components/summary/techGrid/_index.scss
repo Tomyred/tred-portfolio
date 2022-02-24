@@ -1,0 +1,31 @@
+.techgrid {
+    width: 100%;
+    text-align: center;
+    @media screen and (min-width: 900px) {
+        width: 50%;
+    }
+}
+
+.icons__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    @media screen and (min-width: 900px) {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+.icons__container > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons__container > p > img {
+    margin-left: 10px;
+}
+
+.technologies > h3 {
+    margin: 50px;
+}
