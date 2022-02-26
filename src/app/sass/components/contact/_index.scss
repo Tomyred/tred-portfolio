@@ -1,0 +1,51 @@
+.contact {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact h2,
+.contact p {
+    text-align: center;
+}
+
+.contact h2 {
+    color: rgb(160, 0, 0);
+}
+
+.contact > form {
+    width: 50%;
+}
+
+.contact > form > label {
+    margin: 20px;
+}
+
+.contact > form > button {
+    display: block;
+    width: 100%;
+    margin: 30px 10px 10px 10px;
+    border: 2px solid black;
+    background-color: transparent;
+    border-radius: 30px;
+    height: 50px;
+    padding: 10px;
+}
+
+.contact > form > button:active {
+    background-color: rgb(24, 23, 23);
+}
+
+.form__element {
+    display: block;
+    width: 100%;
+    margin: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 50px;
+    padding: 10px;
+}

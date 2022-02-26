@@ -5,6 +5,7 @@
 @import "./components/home/index";
 @import "./components/aboutme/";
 @import "./components/summary/index";
+@import "./components/contact/index";
 
 * {
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -19,6 +20,11 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(8, 8, 8);
+    font-family: $poppins;
 }
 
 ::-webkit-scrollbar {
@@ -36,11 +42,6 @@ html {
 
 a:hover {
     color: rgb(158, 4, 4);
-}
-
-body {
-    background-color: rgb(8, 8, 8);
-    font-family: $poppins;
 }
 
 .grid__center {

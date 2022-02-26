@@ -4,10 +4,12 @@ import TechGrid from "./techGrid";
 
 const Summary = () => {
     return (
-        <div id="summary" className="summary">
-            <Projects />
-            <TechGrid />
-        </div>
+        <section id="summary">
+            <div className="summary">
+                <Projects />
+                <TechGrid />
+            </div>
+        </section>
     );
 };
 
