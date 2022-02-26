@@ -2,14 +2,14 @@
 
 import AboutMe from "./main/abourMe";
 import Navbar from "./main/navbar";
-import Presentation from "./main/presentation";
+import Home from "./main/home";
 import Summary from "./main/summary";
 
 function App() {
     return (
         <div className="app">
             <Navbar />
-            <Presentation />
+            <Home />
             <Summary />
             <AboutMe />
         </div>

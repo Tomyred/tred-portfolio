@@ -1,0 +1,14 @@
+@import "../../abstracts/variables.scss";
+
+.home {
+    font-size: 25px;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.invisible {
+    color: rgba(255, 255, 255, 0);
+}

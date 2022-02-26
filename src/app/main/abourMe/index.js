@@ -26,21 +26,21 @@ const AboutMe = () => {
                 <h3>...and programming</h3>
                 <br />
                 <p>
-                    Mi interes por la programacion desperto hace ocho años,
-                    cuando tenia 16, al ver un anuncio de un curso de desarrollo
-                    de videojuegos. En ese tiempo asistia a una escuela muy
-                    exigente y entre ella, estudios musicales, actividad fisica
-                    y el resto de mis actividades me sobraba muy poco tiempo
-                    para cualquier otra cosa. Aun asi, la propuesta me sedujo y
-                    decidi a darle una oportunidad.
+                    My interest in programming was sparked eight years ago, when
+                    I was 16, when I saw an advertisement for a video game
+                    development course. At that time I attended a very demanding
+                    school and between it, musical studies, physical activity
+                    and the rest of my activities I had very little time left
+                    for anything else. Even so, the proposal seduced me and I
+                    decided to give it a try.
                 </p>
                 <br />
                 <p>
-                    Aprendí y durante un par de años fue un hobbie que no podia
-                    compartir con nadie. Desarrollaba juegos pequeños en c++ y
-                    c# para mi y mis amigos pero nunca considere que la
-                    programacion tendria este futuro o que podria convertirse en
-                    mi profesión. Muy ingenuo de mi parte.
+                    I finished the course and for a couple of years it was a
+                    hobby that I couldn't share with anyone. I used to develop
+                    small games in c++ and c# but I never considered that
+                    programming would have this future or that it could become
+                    my profession.
                 </p>
             </div>
 

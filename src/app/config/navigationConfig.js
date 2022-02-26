@@ -1,5 +1,9 @@
 const navigationConfig = [
     {
+        title: "Home",
+        href: "#home",
+    },
+    {
         title: "Summary",
         href: "#summary",
     },
@@ -10,6 +14,10 @@ const navigationConfig = [
     {
         title: "Contact",
         href: "#contact",
+    },
+    {
+        title: "Network",
+        href: "#network",
     },
 ];
 
