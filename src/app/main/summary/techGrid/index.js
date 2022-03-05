@@ -4,7 +4,7 @@ const TechGrid = () => {
     return (
         <div className="techgrid">
             <div className="technologies">
-                <h3 id="title">Technologies i work with:</h3>
+                <h3 className="title">Technologies i work with:</h3>
                 <div className="icons__container">
                     <p>
                         HTML5

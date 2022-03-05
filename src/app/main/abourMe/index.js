@@ -5,7 +5,7 @@ const AboutMe = () => {
         <section id="aboutme">
             <div className="aboutme">
                 <div>
-                    <h2>Me</h2>
+                    <h2 className="title">Me</h2>
                     <br />
                     <p>
                         If there is something I hate more than self-praise, it
@@ -25,7 +25,7 @@ const AboutMe = () => {
 
                 <br />
                 <div>
-                    <h3>...and programming</h3>
+                    <h3 className="title">...and programming</h3>
                     <br />
                     <p>
                         My interest in programming was sparked eight years ago,
@@ -48,7 +48,7 @@ const AboutMe = () => {
 
                 <br />
                 <div>
-                    <h3>...and what i like</h3>
+                    <h3 className="title">...and what i like</h3>
                     <br />
                     <p> Science fiction, Voltaire and David Bowie </p>
                 </div>
