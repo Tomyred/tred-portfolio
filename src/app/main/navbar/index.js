@@ -4,18 +4,23 @@ import resume from "../../assets/docs/resume.pdf";
 const Navbar = () => {
     return (
         <div className="navbar">
-            {navigationConfig.map((element, i) => {
-                return (
-                    <span key={i}>
-                        <a href={element.href}>{element.title}</a>
-                    </span>
-                );
-            })}
-            <span>
-                <a href={resume} download="Tomás_Rojo_resume">
-                    Dowload Resume
-                </a>
-            </span>
+            <div className="navbar__title">
+                <h1>@Tred</h1>
+            </div>
+            <div className="navigation">
+                {navigationConfig.map((element, i) => {
+                    return (
+                        <span key={i}>
+                            <a href={element.href}>{element.title}</a>
+                        </span>
+                    );
+                })}
+                <span>
+                    <a href={resume} download="Tomás_Rojo_resume">
+                        Dowload Resume
+                    </a>
+                </span>
+            </div>
         </div>
     );
 };

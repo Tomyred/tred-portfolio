@@ -6,7 +6,7 @@ const Projects = () => {
         <div id="projects" className="projects">
             <p>
                 Take a look of more projects on JavaScript, Java and Python on
-                my
+                my{" "}
                 <a
                     href="https://github.com/Tomyred"
                     target="_blank"
