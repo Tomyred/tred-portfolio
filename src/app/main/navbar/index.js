@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div className="navbar__title">
-                <h1>@Tred</h1>
+                <h1>{"{{Logo here}}"}</h1>
             </div>
             <div className="navigation">
                 {navigationConfig.map((element, i) => {

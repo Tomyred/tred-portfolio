@@ -49,13 +49,6 @@ const TechGrid = () => {
                             alt="sass"
                         ></img>
                     </p>
-                    <p>
-                        SQL
-                        <img
-                            src="https://img.icons8.com/color/48/000000/sql.png"
-                            alt="sql"
-                        />{" "}
-                    </p>
 
                     <p>
                         Git{" "}
@@ -64,12 +57,34 @@ const TechGrid = () => {
                             alt="git"
                         />
                     </p>
+
+                    <p>
+                        Sass
+                        <img
+                            src="https://img.icons8.com/color/48/000000/sass.png"
+                            alt="sass"
+                        />
+                    </p>
+                    <p>
+                        Python
+                        <img
+                            src="https://img.icons8.com/color/48/000000/python.png"
+                            alt="python"
+                        />
+                    </p>
                     <p>
                         Java
                         <img
                             src="https://img.icons8.com/color/48/000000/java.png"
                             alt="java"
                         />
+                    </p>
+                    <p>
+                        SQL
+                        <img
+                            src="https://img.icons8.com/color/48/000000/sql.png"
+                            alt="sql"
+                        />{" "}
                     </p>
                 </div>
             </div>
