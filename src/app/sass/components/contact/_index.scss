@@ -1,13 +1,26 @@
+@import "../../abstracts/mixins.scss";
+@import "./form.scss";
+@import "./network.scss";
+
 .contact {
     width: 100%;
+    min-height: 100vh;
+    background-color: #000;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #000;
     @media screen and (min-width: 900px) {
         padding: 50px;
     }
+}
+
+.contact__body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .contact h2 {
@@ -17,53 +30,4 @@
 .contact h2,
 .contact p {
     text-align: center;
-}
-
-.contact > form {
-    width: 100%;
-    padding: 20px;
-    @media screen and (min-width: 900px) {
-        width: 50%;
-    }
-}
-
-.contact > form > label {
-    margin: 20px;
-}
-
-.contact > form > button {
-    display: block;
-    width: 100%;
-    margin-top: 20px;
-    border: 2px solid black;
-    background-color: rgba(32, 32, 32, 0.377);
-    border-radius: 30px;
-    height: 50px;
-    padding: 10px;
-}
-
-.contact > form > button:active {
-    background-color: rgb(160, 0, 0);
-}
-
-.contact > form > input {
-    display: block;
-    margin: 10px 0 10px 0;
-    background-color: rgba(32, 32, 32, 0.377);
-    border: 2px solid black;
-    border-radius: 30px;
-    height: 40px;
-    padding: 10px;
-    font-size: 18px;
-}
-
-.contact > form > textarea {
-    display: block;
-    margin: 10px 0 10px 0;
-    background-color: rgba(32, 32, 32, 0.377);
-    border: 2px solid black;
-    border-radius: 30px;
-    padding: 10px;
-    font-size: 18px;
-    resize: none;
 }

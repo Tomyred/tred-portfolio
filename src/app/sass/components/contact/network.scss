@@ -1,0 +1,55 @@
+.contact__network {
+    width: 100%;
+    border: 2px solid #fff;
+    padding: 20px;
+    @media screen and (min-width: 900px) {
+        width: 50%;
+    }
+}
+
+.network__element > img {
+    display: none;
+    @media screen and (min-width: 550px) {
+        display: inline;
+    }
+}
+
+.contact__network a {
+    text-decoration: none;
+}
+
+.network__element {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    // @media screen and (min-width: 900px) {
+
+    // }
+}
+
+.network__element > p {
+    margin-left: 10px;
+    // display: none;
+    // @media screen and (min-width: 900px) {
+    //     display: block;
+    // }
+}
+
+// .network__element span {
+//     border: 2px solid #fff;
+//     padding: 10px;
+// }
+
+.network__button {
+    border: 2px solid #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.network__button > a {
+}
+
+.network__button:hover {
+    background-color: rgb(19, 19, 19);
+}

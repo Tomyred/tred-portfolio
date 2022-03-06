@@ -1,0 +1,45 @@
+.contact__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    @media screen and (min-width: 900px) {
+        width: 50%;
+    }
+}
+
+.contact__form > form {
+    padding: 20px;
+    width: 100%;
+}
+
+.contact__form > form > label {
+    margin: 20px;
+}
+
+.contact__form > form > button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid black;
+    background-color: rgba(32, 32, 32, 0.377);
+    border-radius: 30px;
+    height: 50px;
+    padding: 10px;
+}
+
+.contact__form > form > button:active {
+    background-color: rgb(160, 0, 0);
+}
+
+.form__input {
+    @include formElement();
+    height: 40px;
+}
+
+.form__textarea {
+    @include formElement();
+    font-size: 18px;
+    resize: none;
+}

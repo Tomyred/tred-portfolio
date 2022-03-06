@@ -7,14 +7,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     @media screen and (min-width: 900px) {
-        justify-content: end;
+        justify-content: flex-end;
+        text-align: left;
     }
 }
 
 .home__container {
     @media screen and (min-width: 900px) {
-        margin-right: 300px;
+        margin-right: 250px;
     }
 }
 

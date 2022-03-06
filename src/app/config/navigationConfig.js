@@ -15,10 +15,6 @@ const navigationConfig = [
         title: "Contact",
         href: "#contact",
     },
-    {
-        title: "Network",
-        href: "#network",
-    },
 ];
 
 export default navigationConfig;
