@@ -6,7 +6,6 @@ const Home = () => {
     return (
         <section id="home">
             <div className="home">
-                <div className="invisible">-</div>
                 <div className="home__container glitch">
                     <GlitchSquiggly scaleNoise={2} disabled={false}>
                         <motion.h1

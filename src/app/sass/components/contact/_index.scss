@@ -5,7 +5,9 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: #000;
-    padding: 50px;
+    @media screen and (min-width: 900px) {
+        padding: 50px;
+    }
 }
 
 .contact h2 {

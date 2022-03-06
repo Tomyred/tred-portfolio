@@ -6,7 +6,16 @@
     padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    @media screen and (min-width: 900px) {
+        justify-content: end;
+    }
+}
+
+.home__container {
+    @media screen and (min-width: 900px) {
+        margin-right: 300px;
+    }
 }
 
 .invisible {
