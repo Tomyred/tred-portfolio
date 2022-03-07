@@ -1,19 +1,58 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import { useForm } from "react-hook-form";
+import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
+    const form = useRef();
+
+    const [statusMessage, setStatusMessage] = useState("");
+
     const {
         register,
-        handleSubmit,
         formState: { errors },
+        handleSubmit,
+        reset,
     } = useForm();
 
-    const onSubmit = data => {
-        console.log(data);
+    const onSubmit = async e => {
+        emailjs
+            .sendForm(
+                "service_44hec3j",
+                "template_8is2hel",
+                form.current,
+                "_OHbsdlcKYGzloeJD"
+            )
+            .then(
+                result => {
+                    if (result.text) {
+                        setStatusMessage("Success!");
+                        reset();
+                        setTimeout(() => {
+                            setStatusMessage("");
+                        }, 2000);
+                    } else {
+                        setStatusMessage("An error has occurred");
+                        setTimeout(() => {
+                            setStatusMessage("");
+                        }, 2000);
+                    }
+                },
+                error => {
+                    console.log(error.text);
+                }
+            );
     };
     return (
         <div className="contact__form">
-            <form onSubmit={handleSubmit(onSubmit)}>
+            <span
+                style={{
+                    color: statusMessage === "Success!" ? "green" : "red",
+                }}
+            >
+                {" "}
+                {statusMessage}{" "}
+            </span>
+            <form ref={form} onSubmit={handleSubmit(onSubmit)}>
                 <label htmlFor="firstName">FirstName</label>
                 <span
                     style={{
