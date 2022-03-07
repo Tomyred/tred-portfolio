@@ -14,6 +14,8 @@ const Network = () => {
     };
     return (
         <div className="contact__network">
+            <h3>Network</h3>
+            <hr />
             <div className="network__element w-100">
                 <div className="network__element">
                     <img
@@ -37,6 +39,24 @@ const Network = () => {
                 <div className="network__button">
                     <a
                         href="https://www.linkedin.com/in/tom-roj-38743a214/"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <span>Take a look</span>
+                    </a>
+                </div>
+            </div>
+            <div className="network__element w-100">
+                <div className="network__element">
+                    <img
+                        src="https://img.icons8.com/color/48/000000/github.png"
+                        alt="github"
+                    />
+                    <p>Github: Tomás Rojo</p>
+                </div>
+                <div className="network__button">
+                    <a
+                        href="https://github.com/Tomyred"
                         target="_blank"
                         rel="noreferrer"
                     >

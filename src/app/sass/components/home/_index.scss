@@ -9,16 +9,17 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    @media screen and (min-width: 900px) {
-        justify-content: flex-end;
-        text-align: left;
-    }
 }
 
-.home__container {
-    @media screen and (min-width: 900px) {
-        margin-right: 250px;
-    }
+#tsparticles {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
 }
 
 .invisible {

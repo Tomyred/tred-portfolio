@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="navbar__container">
             <div className="navbar">
                 <div className="navbar__title">
-                    <h1>{"{{Logo here}}"}</h1>
+                    <p>{"{{Logo here}}"}</p>
                 </div>
                 <div className="bw__navigation">
                     {navigationConfig.map((element, i) => {

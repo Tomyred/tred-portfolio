@@ -3,14 +3,20 @@
 @import "./network.scss";
 
 .contact {
-    padding-top: 10%;
+    padding-top: 80px;
     width: 100%;
     min-height: 100vh;
-    background-color: #000;
+    // background-color: #000;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+
+    background: rgba(4, 4, 4, 0.5);
+    color: white;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+
     @media screen and (min-width: 900px) {
         padding: 20px;
         padding-top: 50px;

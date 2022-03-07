@@ -1,10 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import GlitchSquiggly from "react-glitch-effect/core/GlitchSquiggly";
+import Particles from "react-tsparticles";
+import particlesOptions from "./particles.json";
 
 const Home = () => {
     return (
         <section id="home">
+            <Particles options={particlesOptions} />
             <div className="home">
                 <div className="home__container glitch">
                     <GlitchSquiggly scaleNoise={2} disabled={false}>

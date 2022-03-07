@@ -13,7 +13,7 @@ const AboutMe = () => {
                         this does not mean that something ceases to be true,
                         therefore, it is with some discomfort that if I had to
                         choose a word to describe myself it would be
-                        "passionate"; The passion and inclination to give my
+                        "passionate". The passion and inclination to give my
                         best covers every aspect of my life, from the simplest
                         tasks, such as changing a light bulb or mounting a
                         shelf, to more complex tasks such as programming. This
@@ -31,10 +31,9 @@ const AboutMe = () => {
                         My interest in programming was sparked eight years ago,
                         when I was 16, when I saw an advertisement for a video
                         game development course. At that time I attended a very
-                        demanding school and between it, musical studies,
-                        physical activity and the rest of my activities I had
-                        very little time left for anything else. Even so, the
-                        proposal seduced me and I decided to give it a try.
+                        demanding school and I had very little time left for
+                        anything else. Even so, the proposal seduced me and I
+                        decided to give it a try.
                     </p>
                     <br />
                     <p>
@@ -42,7 +41,19 @@ const AboutMe = () => {
                         hobby that I couldn't share with anyone. I used to
                         develop small games in c++ and c# but I never considered
                         that programming would have this future or that it could
-                        become my profession.
+                        become my profession. Time passed and so the interest
+                        was deposited in other things, I began to write short
+                        articles for a small local newspaper, I learned to play
+                        piano and drums and I had almost forgotten about
+                        programming
+                    </p>
+                    <br />
+                    <p>
+                        A couple of years ago, a bar conversation with a friend
+                        revived my passion and curiosity for technology, I
+                        decided to give it another chance and it was then that I
+                        definitely decided and chose software development as my
+                        profession.
                     </p>
                 </div>
 
@@ -50,7 +61,27 @@ const AboutMe = () => {
                 <div>
                     <h3 className="title">...and what i like</h3>
                     <br />
-                    <p> Science fiction, Voltaire and David Bowie </p>
+                    <p>
+                        I love reading, cooking and ironies. I make bread,
+                        pizza, prepare a Thai or Mexican meal. I love to cook,
+                        is my unplug. The intellect is applied to such a
+                        different place. Cooking counterbalances the anguish of
+                        someone who is soon going to get into something arduous.
+                    </p>
+                    <br />
+                    <p>
+                        I like to read mainly science and historical fiction,
+                        mystery and popular science. Among my favorite authors
+                        are Frank Herbert, George Orwell, Arthur C. Clarke,
+                        Isaac Asimov, Umberto Eco, Jorge Luis Borges and José
+                        Saramago (that selection was more difficult than it
+                        seems)
+                    </p>
+                    <br />
+                    <p>
+                        I love Rock in general and David Bowie in particular. I
+                        also like Bob Dylan, The Doors and Pixies, among others
+                    </p>
                 </div>
             </div>
         </section>
