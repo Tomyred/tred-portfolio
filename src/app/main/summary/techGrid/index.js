@@ -28,6 +28,13 @@ const TechGrid = () => {
                         />{" "}
                     </p>
                     <p>
+                        TypeScript
+                        <img
+                            src="https://img.icons8.com/color/48/000000/typescript.png"
+                            alt="typesscript"
+                        />{" "}
+                    </p>
+                    <p>
                         React
                         <img
                             src="https://img.icons8.com/color/48/000000/react-native.png"

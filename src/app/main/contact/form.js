@@ -66,6 +66,7 @@ const ContactForm = () => {
                     id="firstName"
                     type="text"
                     className="form__input w-100"
+                    placeholder="First Name"
                     {...register("firstName", {
                         required: {
                             value: true,
@@ -73,8 +74,7 @@ const ContactForm = () => {
                         },
                         minLength: {
                             value: 3,
-                            message:
-                                "Minimum 3 characters.I'm sorry if your name has only two letters :(.",
+                            message: "Minimum 3 characters.",
                         },
                     })}
                 />
@@ -91,6 +91,7 @@ const ContactForm = () => {
                     id="lastName"
                     type="text"
                     className="form__input w-100"
+                    placeholder="Last Name"
                     {...register("lastName", {
                         required: {
                             value: true,
@@ -98,8 +99,7 @@ const ContactForm = () => {
                         },
                         minLength: {
                             value: 3,
-                            message:
-                                "Minimum 3 characters.I'm sorry if your last name has only two letters :(.",
+                            message: "Minimum 3 characters.",
                         },
                     })}
                 />
@@ -116,6 +116,7 @@ const ContactForm = () => {
                     id="email"
                     type="email"
                     className="form__input w-100"
+                    placeholder="Email"
                     {...register("email", {
                         required: {
                             value: true,
@@ -140,6 +141,7 @@ const ContactForm = () => {
                     id="subject"
                     type="text"
                     className="form__input w-100"
+                    placeholder="Subject"
                     {...register("subject", {
                         required: {
                             value: true,
@@ -160,6 +162,7 @@ const ContactForm = () => {
                     id="message"
                     className="form__textarea w-100"
                     rows={5}
+                    placeholder="Message"
                     {...register("message", {
                         required: {
                             value: true,

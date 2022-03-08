@@ -2,7 +2,7 @@ import facebookClone from "../../../assets/images/facebook-clone.png";
 import nodo20 from "../../../assets/images/nodo20.png";
 import creditcard from "../../../assets/images/creditcard.png";
 import cryptoPrices from "../../../assets/images/crypto-prices.png";
-import darkmode from "../../../assets/images/darkmode-toggler.png";
+// import darkmode from "../../../assets/images/darkmode-toggler.png";
 import mediaFinder from "../../../assets/images/media-finder.png";
 import webScraping from "../../../assets/images/webscraping.png";
 
@@ -35,13 +35,13 @@ const projects = [
         image: cryptoPrices,
         url: "https://affectionate-bell-7e3879.netlify.app/",
     },
-    {
-        title: "Theme toggler",
-        description:
-            "A simple theme to toggle by clicking on the sun andthe moon.",
-        image: darkmode,
-        url: "https://tomyred.github.io/Dark-mode/",
-    },
+    // {
+    //     title: "Theme toggler",
+    //     description:
+    //         "A simple theme to toggle by clicking on the sun andthe moon.",
+    //     image: darkmode,
+    //     url: "https://tomyred.github.io/Dark-mode/",
+    // },
     {
         title: "Media finder",
         description:

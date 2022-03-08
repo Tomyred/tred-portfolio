@@ -16,6 +16,15 @@
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
 
+    h2 {
+        margin-top: 20px;
+    }
+
+    h2,
+    p {
+        text-align: center;
+    }
+
     @media screen and (min-width: 900px) {
         padding: 20px;
         padding-top: 50px;
@@ -28,13 +37,4 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}
-
-.contact h2 {
-    margin-top: 20px;
-}
-
-.contact h2,
-.contact p {
-    text-align: center;
 }
