@@ -5,7 +5,16 @@
     background: rgba(4, 4, 4, 0.25);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     p {
         color: darkgrey;
+    }
+}
+
+.about__text {
+    @media screen and (min-width: 900px) {
+        width: 50%;
     }
 }

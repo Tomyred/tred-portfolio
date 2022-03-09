@@ -2,14 +2,13 @@ import React, { useState } from "react";
 import navigationConfig from "../../config/navigationConfig";
 import resume from "../../assets/docs/resume.pdf";
 import Collapsible from "react-collapsible";
+import logo from "../../assets/images/tred-logo.png";
 const Navbar = () => {
     const [open, setOpen] = useState(false);
     return (
         <div className="navbar__container">
             <div className="navbar">
-                <div className="navbar__title">
-                    <p>{"{{Logo here}}"}</p>
-                </div>
+                <img src={logo} alt="tred-logo" />
                 <div className="bw__navigation">
                     {navigationConfig.map((element, i) => {
                         return (
