@@ -64,12 +64,10 @@ const AboutMe = () => {
                         <h3 className="title">...and what i like</h3>
                         <br />
                         <p>
-                            I love reading and cooking. I make bread,
-                            pizza, prepare a Thai or Mexican meal. I love to
-                            cook, is my unplug. The intellect is applied to such
-                            a different place. Cooking counterbalances the
-                            anguish of someone who is soon going to get into
-                            something arduous.
+                            I love reading and cooking. I make bread, pizza,
+                            prepare a Thai or Mexican meal. I love to cook, is
+                            my unplug. The intellect is applied to such a
+                            different place.
                         </p>
                         <br />
                         <p>
