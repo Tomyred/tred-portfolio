@@ -52,7 +52,7 @@ const Navbar = () => {
                         href={resume}
                         download="Tomás_Rojo_resume"
                     >
-                        Dowload Resume
+                        Download Resume
                     </a>
                 </Collapsible>
             </div>
