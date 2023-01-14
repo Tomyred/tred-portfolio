@@ -5,7 +5,7 @@ import Network from "./network";
 const Contact = () => {
     return (
         <section id="contact">
-            <div className="contact">
+            <div className="page-section contact">
                 <div>
                     <h2 className="title"> Contact </h2>
                     <p>Let's work together!</p>

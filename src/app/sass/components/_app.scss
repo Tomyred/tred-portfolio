@@ -1,3 +1,15 @@
 .app {
     height: 100vh;
 }
+
+.page-section {
+    padding-top: 80px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(4, 4, 4, 0.25);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}

@@ -1,13 +1,5 @@
 .aboutme {
-    min-height: 100vh;
     padding: 20px;
-    padding-top: 80px;
-    background: rgba(4, 4, 4, 0.25);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     p {
         color: darkgrey;
     }

@@ -2,18 +2,6 @@
 @import "./techGrid/index";
 
 .summary {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    padding-top: 80px;
-    min-height: 100vh;
-
-    background: rgba(4, 4, 4, 0.25);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
-
     @media screen and (min-width: 900px) {
         padding: 20px;
     }

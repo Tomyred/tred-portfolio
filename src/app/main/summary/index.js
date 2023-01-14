@@ -5,8 +5,8 @@ import TechGrid from "./techGrid";
 const Summary = () => {
     return (
         <section id="summary">
-            <div className="summary">
-                <Projects />
+            <div className="summary page-section">
+                {/* <Projects /> */}
                 <TechGrid />
             </div>
         </section>

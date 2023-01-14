@@ -12,7 +12,7 @@ const Home = () => {
                     <GlitchSquiggly scaleNoise={2} disabled={false}>
                         <h1>@Tred</h1>
                         <h3>Tomás Rojo</h3>
-                        <p>Web developer with passion</p>
+                        <p>Web/Mobile developer with passion</p>
                         <p> for learning and technology</p>
                     </GlitchSquiggly>
                 </div>
