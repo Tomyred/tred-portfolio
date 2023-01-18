@@ -9,10 +9,10 @@ const AboutMe = () => {
                         <h2 className="title">Me</h2>
                         <br />
                         <p>
-                            If there is something I hate more than self-praise, it is falling into cliché or hackneyed phrases. However, this does not mean that
-                            something ceases to be true, therefore, it is with some discomfort that if I had to choose a word to describe myself it would be
+                            If there is something I hate more than self-praise, it is falling into cliché or hackneyed phrases. However, just because of this, 
+                            things do not stop being true, that is why it is with some annoyance that if I had to choose a word to describe myself it would be
                             "passionate". The passion and inclination to give my best covers every aspect of my life, from the simplest tasks, such as changing
-                            a light bulb or mounting a shelf, to more complex tasks such as programming. This passion is constantly fueled by the very nature of
+                            a light bulb or mounting a shelf, to more complex ones such as programming. This passion is constantly fueled by the very nature of
                             the discipline: there is always something new to learn and work alone constantly motivates you to want to improve.
                         </p>
                     </div>
