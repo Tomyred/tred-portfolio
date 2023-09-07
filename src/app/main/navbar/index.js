@@ -1,15 +1,15 @@
-import React, { useState } from "react";
-import navigationConfig from "../../config/navigationConfig";
-import resume from "../../assets/docs/resume.pdf";
-import Collapsible from "react-collapsible";
-import logo from "../../assets/images/tred-logo.png";
+import React, { useState } from 'react';
+import navigationConfig from '../../config/navigationConfig';
+import resume from '../../assets/docs/resume.pdf';
+import Collapsible from 'react-collapsible';
+import logo from '../../assets/images/tred-logo.png';
 const Navbar = () => {
     const [open, setOpen] = useState(false);
     return (
-        <div className="navbar__container">
-            <div className="navbar">
-                <img src={logo} alt="tred-logo" />
-                <div className="bw__navigation">
+        <div className='navbar__container'>
+            <div className='navbar'>
+                <div></div>
+                <div className='bw__navigation'>
                     {navigationConfig.map((element, i) => {
                         return (
                             <a key={i} href={element.href}>
@@ -18,40 +18,27 @@ const Navbar = () => {
                         );
                     })}
 
-                    <a href={resume} download="Tomás_Rojo_resume">
+                    <a href={resume} download='Tomás_Rojo_resume'>
                         Dowload Resume
                     </a>
                 </div>
-                <div className="burger" onClick={() => setOpen(!open)}>
-                    <div className="line"></div>
-                    <div className="line"></div>
-                    <div className="line"></div>
+                <div className='burger' onClick={() => setOpen(!open)}>
+                    <div className='line'></div>
+                    <div className='line'></div>
+                    <div className='line'></div>
                 </div>
             </div>
-            <div className="collapsible">
-                <Collapsible
-                    open={open}
-                    transitionTime={200}
-                    onTriggerClosing={() => setOpen(false)}
-                >
+            <div className='collapsible'>
+                <Collapsible open={open} transitionTime={200} onTriggerClosing={() => setOpen(false)}>
                     {navigationConfig.map((element, i) => {
                         return (
-                            <a
-                                key={i}
-                                className="collapse__item"
-                                href={element.href}
-                                onClick={() => setOpen(false)}
-                            >
+                            <a key={i} className='collapse__item' href={element.href} onClick={() => setOpen(false)}>
                                 {element.title}
                             </a>
                         );
                     })}
 
-                    <a
-                        className="collapse__item"
-                        href={resume}
-                        download="Tomás_Rojo_resume"
-                    >
+                    <a className='collapse__item' href={resume} download='Tomás_Rojo_resume'>
                         Download Resume
                     </a>
                 </Collapsible>
