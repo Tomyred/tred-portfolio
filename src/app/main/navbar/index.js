@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import navigationConfig from '../../config/navigationConfig';
 import resume from '../../assets/docs/resume.pdf';
 import Collapsible from 'react-collapsible';
-import logo from '../../assets/images/tred-logo.png';
+// import logo from '../../assets/images/tred-logo.png';
 const Navbar = () => {
     const [open, setOpen] = useState(false);
     return (
