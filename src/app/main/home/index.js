@@ -8,7 +8,7 @@ const Home = () => {
             <Particles options={particlesOptions} />
             <div className='home'>
                 <div className='home__container glitch'>
-                    <h1>@Troj</h1>
+                    <h1>@Torj</h1>
                     <h3>Tomás Rojo</h3>
                     <p>Full-Stack developer with passion</p>
                     <p>for technology</p>
