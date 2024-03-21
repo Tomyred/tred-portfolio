@@ -8,7 +8,7 @@ const Contact = () => {
             <div className="page-section contact">
                 <div>
                     <h2 className="title"> Contact </h2>
-                    <p>Let's work together!</p>
+                    <p style={{marginBottom: 40}} >Let's work together!</p>
                 </div>
                 <div className="contact__body">
                     <ContactForm />

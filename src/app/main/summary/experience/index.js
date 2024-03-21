@@ -14,7 +14,7 @@ const experienceArray = [
         text1: 'Softtek. Full time',
         text2: 'April 2022 - Date',
         text3: 'Argentina',
-        description: 'App development with React Native, React js, Ionic, Gitlab, Expo',
+        description: ['App development, maintenance and monitoring.', <br/>, 'React js - React Native - Ionic - Java Spring Boot - Google Cloud Platform'],
     },
     {
         image: {
@@ -25,7 +25,7 @@ const experienceArray = [
         text1: 'Cooperative workshops. Part time',
         text2: 'November 2021 - November 2022',
         text3: 'Argentina',
-        description: 'Teaching introductory courses of Web development with MERN technologies',
+        description: 'Taught full-stack web development with React.js and Express.js, covering concepts such as front-end UI design, state management, server-side API development, and database integration.',
     },
     {
         image: {
@@ -46,7 +46,7 @@ const Experience = () => {
             <div>
                 <h2 className='title'>Professional experience:</h2>
             </div>
-            <div>
+            <div className='experience-container'>
                 {experienceArray.map((elem) => {
                     return <ExperienceCard {...elem} />;
                 })}

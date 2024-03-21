@@ -16,14 +16,8 @@ const ContactForm = () => {
 
     const onSubmit = async e => {
         emailjs
-            .sendForm(
-                "service_44hec3j",
-                "template_8is2hel",
-                form.current,
-                "_OHbsdlcKYGzloeJD"
-            )
-            .then(
-                result => {
+            .sendForm( "service_44hec3j", "template_8is2hel", form.current, "_OHbsdlcKYGzloeJD")
+            .then(result => {
                     if (result.text) {
                         setStatusMessage("Success!");
                         reset();
@@ -37,10 +31,7 @@ const ContactForm = () => {
                         }, 2000);
                     }
                 },
-                error => {
-                    console.log(error.text);
-                }
-            );
+            )
     };
     return (
         <div className="contact__form">
@@ -78,7 +69,7 @@ const ContactForm = () => {
                         },
                     })}
                 />
-                <label htmlFor="lastName">Lastname</label>
+                <label htmlFor="lastName">Surname</label>
                 <span
                     style={{
                         color: "red",

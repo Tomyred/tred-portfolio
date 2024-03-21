@@ -3,5 +3,12 @@
 .experience {
     padding-top: 0;
     flex-direction: column;
-    // align-items: flex-start;
+    background-color: rgba(0, 0, 0, .8);;
+    padding: 3em 0;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
 }

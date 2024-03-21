@@ -2,7 +2,7 @@
     position: fixed;
     z-index: 99;
     width: 100%;
-    height: 10%;
+    height: 15%;
     background: rgba(4, 4, 4, 0.5);
     color: white;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -24,11 +24,9 @@
     a {
         text-decoration: none;
         color: #fff;
-        font-size: 15px;
+        font-size: 18px;
     }
-    a:hover {
-        text-decoration: underline;
-    }
+ 
 }
 
 .bw__navigation {
