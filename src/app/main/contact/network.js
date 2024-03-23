@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 
 const Network = () => {
-    const [copyText, setCopyText] = useState("Copy");
+    // const [copyText, setCopyText] = useState("Copy");
 
-    const copyEmail = () => {
-        navigator.clipboard.writeText("tom.roj.laboral@gmail.com");
+    // const copyEmail = () => {
+    //     navigator.clipboard.writeText("tom.roj.laboral@gmail.com");
 
-        setCopyText("Copied!");
+    //     setCopyText("Copied!");
 
-        setTimeout(() => {
-            setCopyText("Copy");
-        }, 1500);
-    };
+    //     setTimeout(() => {
+    //         setCopyText("Copy");
+    //     }, 1500);
+    // };
     return (
         <div className="contact__network">
             <h3>Network</h3>
