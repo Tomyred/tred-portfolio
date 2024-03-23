@@ -1,19 +1,19 @@
 const navigationConfig = [
     {
         title: "Home",
-        href: "#home",
+        href: "home",
     },
     {
         title: "Summary",
-        href: "#summary",
+        href: "summary",
     },
     {
         title: "About me",
-        href: "#aboutme",
+        href: "aboutme",
     },
     {
         title: "Contact",
-        href: "#contact",
+        href: "contact",
     },
 ];
 

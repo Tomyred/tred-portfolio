@@ -8,7 +8,7 @@ const experienceArray = [
     {
         image: {
             base64: softtek,
-            alt: 'softtek',
+            alt: 'softtek tomas rojo software engineer',
         },
         title: 'Front-End Developer',
         text1: 'Softtek. Full time',
@@ -19,7 +19,7 @@ const experienceArray = [
     {
         image: {
             base64: tall,
-            alt: 'talleres-cooperativos',
+            alt: 'talleres-cooperativos tomas rojo software engineer',
         },
         title: 'Instructor',
         text1: 'Cooperative workshops. Part time',
@@ -30,7 +30,7 @@ const experienceArray = [
     {
         image: {
             base64: independecia,
-            alt: 'system coop global',
+            alt: 'system coop global tomas rojo software engineer',
         },
         title: 'Full-stack Developer',
         text1: 'System Coop Global. Part time',
