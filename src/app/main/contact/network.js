@@ -24,9 +24,9 @@ const Network = () => {
                     />
                     <p>Email: tom.roj.laboral@gmail.com</p>
                 </div>
-                <div className="network__button" onClick={copyEmail}>
+                {/* <div className="network__button" onClick={copyEmail}>
                     <span>{copyText}</span>
-                </div>
+                </div> */}
             </div>
             <div className="network__element w-100">
                 <div className="network__element">
@@ -34,9 +34,12 @@ const Network = () => {
                         src="https://img.icons8.com/color/48/000000/linkedin.png"
                         alt="linkedin"
                     />
-                    <p>Tomás Rojo - Full Stack web developer</p>
+                    <a
+                        href="https://www.linkedin.com/in/tom-roj-38743a214/"
+                        target="_blank"
+                        rel="noreferrer">LinkedIn: Tomás Rojo - Full Stack developer</a>
                 </div>
-                <div className="network__button">
+                {/* <div className="network__button">
                     <a
                         href="https://www.linkedin.com/in/tom-roj-38743a214/"
                         target="_blank"
@@ -44,7 +47,7 @@ const Network = () => {
                     >
                         <span>Take a look</span>
                     </a>
-                </div>
+                </div> */}
             </div>
             <div className="network__element w-100">
                 <div className="network__element">
@@ -52,9 +55,12 @@ const Network = () => {
                         src="https://img.icons8.com/color/48/000000/github.png"
                         alt="github"
                     />
-                    <p>Github: Tomás Rojo</p>
+                    <a
+                        href="https://github.com/Tomyred"
+                        target="_blank"
+                        rel="noreferrer">Github: Tomás Rojo</a>
                 </div>
-                <div className="network__button">
+                {/* <div className="network__button">
                     <a
                         href="https://github.com/Tomyred"
                         target="_blank"
@@ -62,7 +68,7 @@ const Network = () => {
                     >
                         <span>Take a look</span>
                     </a>
-                </div>
+                </div> */}
             </div>
             <div className="network__element w-100">
                 <div className="network__element">
@@ -70,9 +76,14 @@ const Network = () => {
                         src="https://img.icons8.com/color/48/000000/instagram-new.png"
                         alt="instagram"
                     />
-                    <p>Instagram: Tomás Rojo</p>
+                    <a
+                        href="https://www.instagram.com/tomas.rojo.1/"
+                        target="_blank"
+                        rel="noreferrer">
+                            Instagram: Tomás Rojo
+                        </a>
                 </div>
-                <div className="network__button">
+                {/* <div className="network__button">
                     <a
                         href="https://www.instagram.com/tomas.rojo.1/"
                         target="_blank"
@@ -80,7 +91,7 @@ const Network = () => {
                     >
                         <span>Take a look</span>
                     </a>
-                </div>
+                </div> */}
             </div>
         </div>
     );

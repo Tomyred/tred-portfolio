@@ -11,13 +11,17 @@
 
 .network__element > img {
     display: none;
-    @media screen and (min-width: 550px) {
+    @media screen and (min-width: 330px) {
         display: inline;
     }
 }
 
 .contact__network a {
-    text-decoration: none;
+    text-align: left;
+    text-decoration: underline;
+    @media screen and (min-width: 330px) {
+        text-decoration: none;
+    }
 }
 
 .network__element {
@@ -28,7 +32,7 @@
 }
 
 .network__element > p {
-    margin-left: 10px;
+    text-align: left !important;
 }
 
 .network__button {

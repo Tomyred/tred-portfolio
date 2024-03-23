@@ -24,13 +24,13 @@ const Navbar = () => {
                 <div className='bw__navigation'>
                     {navigationConfig.map((element, i) => {
                         return (
-                            <a key={i} onClick={() => {
+                            <span className='navigation__item' key={i} onClick={() => {
                                 console.log(element.href)
                                 setOpen(false)
                                 scrollTo(element.href)
                                 }}>
                                 {element.title}
-                            </a>
+                            </span>
                         );
                     })}
 
@@ -48,13 +48,13 @@ const Navbar = () => {
                 <Collapsible open={open} transitionTime={200} onTriggerClosing={() => setOpen(false)}>
                     {navigationConfig.map((element, i) => {
                         return (
-                            <a key={i} className='collapse__item' onClick={() => {
+                            <span key={i} className='collapse__item navigation__item' onClick={() => {
                                 console.log(element.href)
                                 setOpen(false)
                                 scrollTo(element.href)
                                 }}>
                                 {element.title}
-                            </a>
+                            </span>
                         );
                     })}
 

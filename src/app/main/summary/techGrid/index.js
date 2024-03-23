@@ -61,8 +61,8 @@ const TechGrid = () => {
                         <img src="https://img.icons8.com/color/48/000000/python.png" alt="python" />
                     </p>
                     <p>
-                        Java
-                        <img src="https://img.icons8.com/color/48/000000/java.png" alt="java" />
+                        Go
+                        <img src="https://img.icons8.com/color/48/000000/golang.png" alt="java" />
                     </p>
                     <p>
                         SQL
