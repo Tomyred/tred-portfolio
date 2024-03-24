@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Network = () => {
     // const [copyText, setCopyText] = useState("Copy");
