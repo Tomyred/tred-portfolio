@@ -10,5 +10,11 @@
 .experience-container {
     display: flex;
     flex-direction: column;
-    max-width: 60%;
+    // max-width: 50rem;
+    width: 80%;
+    // background-color: red;
+    @media screen and (min-width:900px) {
+        max-width: 60%;
+        
+    }
 }

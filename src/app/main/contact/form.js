@@ -37,7 +37,7 @@ const ContactForm = () => {
         <div className="contact__form">
             <span
                 style={{
-                    color: statusMessage === "Success!" ? "green" : "red",
+                    color: statusMessage === "Success!" ? "#ff003c" : "red",
                 }}
             >
                 {" "}

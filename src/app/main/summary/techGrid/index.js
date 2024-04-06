@@ -7,66 +7,66 @@ const TechGrid = () => {
                 <h2 className="title">Technologies i work with:</h2>
                 <div className="icons__container">
                     <p>
-                        HTML5
                         <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML5" />{" "}
+                        HTML5
                     </p>
                     <p>
-                        CSS3
                         <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS" />{" "}
+                        CSS3
                     </p>
                     <p>
-                        TypeScript
                         <img src="https://img.icons8.com/color/48/000000/typescript.png" alt="typesscript" />{" "}
+                        TypeScript
                     </p>
                     <p>
-                        JavaScript
                         <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="javascript" />{" "}
+                        JavaScript
                     </p>
                     <p>
-                        React js & Native
                         <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="react" />{" "}
+                        React js / Native
                     </p>
                     <p>
-                        Ionic
                         <img src="https://img.icons8.com/color/48/000000/ionic.png" alt="ionic" />{" "}
+                        Ionic
                     </p>
 
                     <p>
-                        Node js
                         <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="nodejs"></img>
+                        Node js
                     </p>
                     <p>
-                        MongoDB
                         <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="sass"></img>
-                    </p>
-
-                    <p>
-                        Git <img src="https://img.icons8.com/color/48/000000/git.png" alt="git" />
+                        MongoDB
                     </p>
                     <p>
-                        Gitlab
+                        <img src="https://img.icons8.com/color/48/000000/git.png" alt="git" />
+                        Git 
+                    </p>
+                    <p>
                         <img src="https://img.icons8.com/color/48/000000/gitlab.png" alt="gitlab" />
+                        Gitlab
                     </p>
                     <p>
-                        Github
                         <img src="https://img.icons8.com/color/48/000000/github.png" alt="github" />
+                        Github
                     </p>
 
                     <p>
-                        Sass
                         <img src="https://img.icons8.com/color/48/000000/sass.png" alt="sass" />
+                        Sass
                     </p>
                     <p>
-                        Python
                         <img src="https://img.icons8.com/color/48/000000/python.png" alt="python" />
+                        Python
                     </p>
                     <p>
-                        Go
                         <img src="https://img.icons8.com/color/48/000000/golang.png" alt="java" />
+                        Go
                     </p>
                     <p>
-                        SQL
                         <img src="https://img.icons8.com/color/48/000000/sql.png" alt="sql" />{" "}
+                        SQL
                     </p>
                 </div>
             </div>

@@ -8,6 +8,10 @@ const navigationConfig = [
         href: "summary",
     },
     {
+        title: "Experience",
+        href: "experience",
+    },
+    {
         title: "About me",
         href: "aboutme",
     },
